@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
-import { CatOMatComponent } from './components/cat-omat/cat-omat.component';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
   standalone: true,
-  imports: [CatOMatComponent]
+  imports: [RouterModule]
 })
 export class AppComponent {
   title = 'Cataas';

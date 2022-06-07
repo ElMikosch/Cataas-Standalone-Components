@@ -1,0 +1,30 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+
+    &__marquee {
+        height: 100px;
+    }
+
+    &__text {
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+        font-size: 64px;
+    }
+}
+
+.knees {
+    top: 100px;
+    &.left{
+        width: 10%;
+        position: absolute;
+        left: 20px;
+    }
+    &.right{
+        width: 10%;
+        position: absolute;
+        right: 20px;
+    }
+}
