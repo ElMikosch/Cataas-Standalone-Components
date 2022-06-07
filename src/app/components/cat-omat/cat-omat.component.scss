@@ -1,0 +1,19 @@
+.cat-o-mat-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    border: 5px dotted green;
+
+    &__image{
+        width: 400px;
+        height: 400px;
+        margin: 4px;
+    }
+
+    &__button{
+        padding: 4px;
+        margin: 4px;
+    }
+}
